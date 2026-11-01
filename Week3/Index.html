@@ -5,7 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTROL // 2019</title>
     <style>
+
         @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+        /*  selector {
+        
+        properties: value; 
+        
+        } 
+        for example:     
+        car-seat {
+            textile-type: leather; 
+            color: brown; 
+            stitching: white; 
+    
+        }*/
+        
+        /* root selector - defines defaults for the entire page unless specified by a child element  */ 
+
         * { 
            --button-bg: #0B0D0C; 
            --button-border: #35393A; 
@@ -18,19 +34,34 @@
 
             font-variation-settings:
                 "wdth" 100;
+        
+
         }
+
+
+        /*element*/
+
         body {
 
             background-color: slategray;
-            background: url('./assets_wk3/rdr2back.jpg');
+            background: url('./assets/Polaris.webp');
             padding: 95px;
             overflow: hidden; 
      
 
         }
+
+        /*class 
+        
+        .class-name{ } */
+
         .return { 
           color: var(--button-hover);
-        }    
+        }
+
+        /* id 
+        #id-name { } */ 
+    
         #logo {
 
             margin-bottom: 185px;
@@ -40,14 +71,21 @@
         #logo img {
             width: 256px; 
         }
+
+       
         .return span {
             background-color: black;
             color: white; 
         } 
+
+
+
         .nav-group {
             margin-bottom: 100px; 
             padding: 0px; 
         }
+
+    
         .nav-group li { 
 
             background-color: var(--button-bg);
@@ -61,6 +99,7 @@
             list-style: "";
 
         }
+
         .nav-group li:hover{
             background-color: var(--button-hover);
             color: var(--button-bg);
@@ -128,7 +167,7 @@
     <footer class="footer">
         <h2>Credits</h2>
         <ul>
-        <li>Background Image: <a href="https://www.rockstargames.com/reddeadredemption2">Control Wiki</a></li></ul>
+        <li>Background Image: <a href="https://control.fandom.com/wiki/Polaris">Control Wiki</a></li></ul>
     </footer>
 
     
