@@ -82,7 +82,7 @@ nav ul > li:hover{
 
 
   /*fix for calc function not working*/
-  background-image: url('./assets/rdr2back.jpg'); 
+  background-image: url('./assets/rdr2wall.png'); 
   height: 100vh; 
   width: 100vw; 
   background-size: cover;
