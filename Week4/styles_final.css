@@ -38,8 +38,8 @@ nav {
   background-color: var(--primaryBlack);
   color: var(--primaryWhite);
   display: flex; 
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   padding: 24px; 
   margin: 0 auto;
   font-family: "IBM Plex Mono", monospace;
@@ -82,7 +82,7 @@ nav ul > li:hover{
 
 
   /*fix for calc function not working*/
-  background-image: url('./assets/rdr2wall.png'); 
+  background-image: url('./assets/rdr2back.jpg'); 
   height: 100vh; 
   width: 100vw; 
   background-size: cover;
