@@ -8,9 +8,9 @@
 /*REM VS EM*/
 
 * { 
-    --primaryWhite: white; 
-    --primaryBlack: black; 
-    --emphasisRed: #C20000;
+    --primaryWhite: Yellow; 
+    --primaryBlack: red; 
+    --emphasisRed: black;
     font-size: 12px; 
     font-family: "IBM Plex Mono", monospace;
 
@@ -19,7 +19,7 @@
 body{ 
   padding: 0px; 
   margin: 0px; 
-  background-color: black;
+  background-color: red;
 
 
 }
